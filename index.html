@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kisah Sukses — Dewa Final</title>
+<link rel="stylesheet" href="public/style.css" />
+<link rel="manifest" href="public/manifest.json" />
+<meta name="theme-color" content="#0084ff" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div><strong>Kisah Sukses</strong></div>
+  <div class="nav-links">
+    <a href="#search">Cari</a>
+    <a href="#media">Media</a>
+    <a href="#social">Sosial</a>
+    <a href="#ai">AI</a>
+  </div>
+</nav>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <div class="brand">
+      <img src="public/assets/logo.png" class="logo" />
+      <div>
+        <h1>Kisah Sukses — Super Lengkap</h1>
+        <p class="sub">Inspirasi harian & mentor lokal</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="mode" class="btn">Dark / Light Mode</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section>
+  <h2>⏳ Loading Skeleton Preview</h2>
+  <div class="skeleton skeleton-box" style="width:60%;"></div>
+  <div class="skeleton skeleton-box" style="width:80%;"></div>
+  <div class="skeleton skeleton-box"></div>
+</section>
+
+<section id="search" class="search-section">
+  <h2>🔍 Mesin Pencari Google Mini (Advanced)</h2>
+  <div class="google-mini-box">
+    <form action="https://www.google.com/search" method="GET" target="_blank" class="google-mini">
+      <input type="text" name="q" id="gsearch" placeholder="Cari apapun..." class="input" autocomplete="off" />
+      <ul id="suggest-box" class="suggestions" style="display:none"></ul>
+      <select name="tbm" class="input">
+        <option value="">Semua</option>
+        <option value="vid">Video</option>
+        <option value="isch">Gambar</option>
+        <option value="nws">Berita</option>
+        <option value="shop">Belanja</option>
+      </select>
+      <div class="advanced-options">
+        <label>Bahasa:
+          <select name="hl" class="input small">
+            <option value="id">Indonesia</option>
+            <option value="en">Inggris</option>
+          </select>
+        </label>
+        <label>Rentang Waktu:
+          <select name="tbs" class="input small">
+            <option value="">Kapan saja</option>
+            <option value="qdr:h">1 jam</option>
+            <option value="qdr:d">24 jam</option>
+            <option value="qdr:w">1 minggu</option>
+            <option value="qdr:m">1 bulan</option>
+          </select>
+        </label>
+      </div>
+      <button class="btn">Cari</button>
+    </form>
+  </div>
+</section>
+
+<section id="media" class="media-section">
+  <h2>▶ YouTube Player</h2>
+  <div class="yt-container">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+  </div>
+  <h2>📺 Playlist</h2>
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj" allowfullscreen></iframe>
+</section>
+
+<section id="social" class="social-section">
+  <h2>🌐 Sosial Media</h2>
+  <div class="social-embeds">
+    <div><h3>Twitter</h3><blockquote class="twitter-tweet"><a href="https://twitter.com/Twitter/status/123"></a></blockquote></div>
+    <div><h3>Instagram</h3><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cx7z/" data-instgrm-version="14"></blockquote></div>
+    <div><h3>TikTok</h3><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@scout2015/video/6718335390845095173"></blockquote></div>
+  </div>
+</section>
+
+<section id="ai" class="chat-section">
+  <h2>🤖 AI Chat Realtime</h2>
+  <div id="chatbox"></div>
+  <div id="typingIndicator" style="display:none;margin-top:4px;"><span class="typing"></span> AI mengetik...</div>
+  <div class="chat-controls">
+    <input id="msg" class="input" placeholder="Tulis pesan..." />
+    <button id="send" class="btn">Kirim</button>
+  </div>
+  <p class="note">Mode AI simulasi realtime.</p>
+</section>
+
+<footer class="footer"><div class="wrap"><small>© 2025 Kisah Sukses Dewa</small></div></footer>
+
+<script src="public/ai.js"></script>
+<script async src="https://platform.twitter.com/widgets.js"></script>
+<script async src="https://www.instagram.com/embed.js"></script>
+<script async src="https://www.tiktok.com/embed.js"></script>
+
+</body>
+</html>
